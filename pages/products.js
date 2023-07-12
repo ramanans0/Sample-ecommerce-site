@@ -54,7 +54,7 @@ export default function Products() {
                                             close => (
                                                 <div className='modal'>
                                                     <div className='content'>
-                                                        Do you want to delete product "{product.title}"?
+                                                        Do you want to delete product {product.title}?
                                                     </div>
                                                     <div>
                                                     <button className="btn-action" onClick={() => {deleteProduct(product._id);close()}}>DELETE</button>
