@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b main -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@auth/mongodb-adapter": "^1.0.0",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "eslint": "8.44.0",
-    "eslint-config-next": "13.4.9"
+    "eslint-config-next": "13.4.9",
+    "gh-pages": "^5.0.0"
   }
 }
