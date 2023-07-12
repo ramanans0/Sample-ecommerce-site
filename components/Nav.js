@@ -13,7 +13,7 @@ export default function Nav() {
         <aside className="text-gray-200 p-4">
             <Link href={'/'} className="flex gap-2 mb-8 mr-4">
                 <span className="">
-                    E-Commerce Storefront
+                    E-Commerce Admin
                 </span>
             </Link>
             <nav className="flex flex-col gap-2">
